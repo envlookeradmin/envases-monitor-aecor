@@ -2,7 +2,7 @@ connection: "monitor-aecorsoft"
 
 # include all the views
 include: "/views/**/*.view.lkml"
-# include: "/**/*.dashboard"
+include: "/**/*.dashboard"
 
 datagroup: monitor_de_extractores_pr_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
