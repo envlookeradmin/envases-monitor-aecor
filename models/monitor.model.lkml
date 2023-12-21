@@ -11,9 +11,9 @@ datagroup: monitor_de_extractores_pr_default_datagroup {
 
 
 datagroup: errores {
-  max_cache_age: "1 hour"
+  max_cache_age: "10 minutes"
   sql_trigger: SELECT max(id_operacion) FROM bitacora_monitor_log ;;
-  interval_trigger:  "30 minutes"
+  interval_trigger:  "10 minutes"
   #label: "desired label"
   #description: "description string"
 }
