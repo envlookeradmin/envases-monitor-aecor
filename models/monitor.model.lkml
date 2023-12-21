@@ -18,6 +18,8 @@ datagroup: errores {
   description: "description string"
 }
 
+
+persist_with: errores
 persist_with: monitor_de_extractores_pr_default_datagroup
 
 explore: bitacora_extractores_log {}
