@@ -1,5 +1,5 @@
 view: bitacora_monitor_log {
-  sql_table_name: `envases-analytics-eon-poc.monitor_extractores.BITACORA_MONITOR_LOG` ;;
+  sql_table_name: `envases-analytics-qa.monitor_extractores.BITACORA_MONITOR_LOG` ;;
 
   dimension: ds_destino {
     type: string

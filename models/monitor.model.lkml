@@ -1,4 +1,4 @@
-connection: "monitor-aecorsoft"
+connection: "envases_analytics_qa"
 
 # include all the views
 include: "/views/**/*.view.lkml"
@@ -9,7 +9,7 @@ datagroup: monitor_de_extractores_pr_default_datagroup {
   max_cache_age: "1 hour"
 }
 
-
+#
 datagroup: errores {
   max_cache_age: "10 minutes"
   sql_trigger: SELECT max(id_operacion) FROM bitacora_monitor_log ;;
